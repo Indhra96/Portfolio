@@ -981,6 +981,24 @@
   <div class="exp-timeline">
 
     <div class="exp-item">
+      <div class="exp-dot" style="background:var(--cyan);box-shadow:0 0 16px var(--cyan);width:18px;height:18px;left:-9px;"></div>
+      <div class="exp-content">
+        <div class="exp-meta">
+          <div class="exp-role">Founding AI Engineer</div>
+          <div class="exp-date">Jan 2026 – Present</div>
+        </div>
+        <div class="exp-company">Quantumindz</div>
+        <ul class="exp-bullets">
+          <li>Architected and developed an <span class="exp-highlight">enterprise-grade AI Assurance Engine</span> — an AI risk intelligence platform that evaluates the security, safety, and compliance of LLM-based applications through automated adversarial testing.</li>
+          <li>Built an intelligent audit pipeline comprising <span class="exp-highlight">Risk Engine, Scenario Selector, Attack Runner, LLM-as-a-Judge, Scoring Engine, and Report Generator</span> to fully automate AI security assessments.</li>
+          <li>Developed and maintained an <strong>attack library of 3,000+ adversarial scenarios</strong> covering prompt injection, jailbreaks, hallucinations, RAG attacks, agent workflows, memory manipulation, and code generation vulnerabilities.</li>
+          <li>Designed scalable async backend (Python, FastAPI, SQLAlchemy Async, PostgreSQL, Redis, Celery) with <span class="exp-highlight">semantic search via pgvector</span>, enabling intelligent attack-chain recommendations from historical audit results.</li>
+          <li>Wrote pytest unit & integration tests across pipeline stages as part of CI/CD; built seamlessly integrating with a Next.js + React + TypeScript frontend.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item">
       <div class="exp-dot"></div>
       <div class="exp-content">
         <div class="exp-meta">
@@ -1044,6 +1062,23 @@
 
   <div class="projects-scroll-wrap">
     <div class="projects-track">
+
+      <div class="project-card card-cyan" style="--gradient: linear-gradient(135deg, #00f5ff, #a855f7)">
+        <div class="project-tag">AI SECURITY · ENTERPRISE · PRODUCTION</div>
+        <div class="project-title">AI Assurance Engine</div>
+        <div class="project-desc">Enterprise AI risk intelligence platform automating adversarial security, safety, and compliance testing for LLM applications. Async distributed audit pipeline with Risk Engine, Attack Runner, and LLM-as-a-Judge scoring across a 3,000+ scenario attack library. Built at Quantumindz.</div>
+        <div class="project-tech">
+          <span class="tech-pill">FastAPI</span>
+          <span class="tech-pill">PostgreSQL</span>
+          <span class="tech-pill">pgvector</span>
+          <span class="tech-pill">Redis</span>
+          <span class="tech-pill">Celery</span>
+          <span class="tech-pill">LLM-as-Judge</span>
+          <span class="tech-pill">pytest</span>
+        </div>
+        <div class="project-metric">3,000+ adversarial test scenarios</div>
+        <div class="project-glow" style="background:radial-gradient(circle,#a855f7,transparent)"></div>
+      </div>
 
       <div class="project-card card-cyan">
         <div class="project-tag">MULTI-AGENT · OPEN SOURCE</div>
@@ -1154,6 +1189,20 @@
     </div>
 
     <div class="cert-card">
+      <div class="cert-issuer">MICROSOFT</div>
+      <div class="cert-name">Microsoft Certified: SQL AI Developer Associate</div>
+      <div class="cert-date">Azure AI · SQL · Certified</div>
+      <div class="cert-badge">🔷</div>
+    </div>
+
+    <div class="cert-card">
+      <div class="cert-issuer">MICROSOFT</div>
+      <div class="cert-name">Microsoft Power BI Advanced DAX</div>
+      <div class="cert-date">Data Visualisation & Analytics</div>
+      <div class="cert-badge">📊</div>
+    </div>
+
+    <div class="cert-card">
       <div class="cert-issuer">UDEMY · JULIO COLOMER</div>
       <div class="cert-name">2025 Bootcamp: Generative AI, LLM Apps, AI Agents, Cursor AI</div>
       <div class="cert-date">June 28, 2025 · 80 total hours</div>
@@ -1249,8 +1298,15 @@
         <span class="skill-tag hot">LangChain</span>
         <span class="skill-tag hot">CrewAI</span>
         <span class="skill-tag hot">OpenAI API</span>
+        <span class="skill-tag hot">Anthropic API</span>
+        <span class="skill-tag">LangGraph</span>
         <span class="skill-tag hot">RAG</span>
+        <span class="skill-tag">Knowledge Graphs</span>
         <span class="skill-tag">Prompt Engineering</span>
+        <span class="skill-tag">Tool-Calling Agents</span>
+        <span class="skill-tag">Guardrails</span>
+        <span class="skill-tag hot">AI Security & Adversarial Testing</span>
+        <span class="skill-tag hot">LLM Risk Assessment</span>
         <span class="skill-tag">Fine-tuning</span>
         <span class="skill-tag hot">RAGAS</span>
         <span class="skill-tag hot">LLM-as-Judge</span>
@@ -1276,13 +1332,22 @@
       <div class="toolkit-group-label">BACKEND & CLOUD <span>// INFRASTRUCTURE</span></div>
       <div class="skill-tags">
         <span class="skill-tag hot">Python</span>
-        <span class="skill-tag">FastAPI</span>
+        <span class="skill-tag hot">FastAPI</span>
         <span class="skill-tag">Flask</span>
         <span class="skill-tag">REST</span>
+        <span class="skill-tag hot">SQLAlchemy (Async)</span>
+        <span class="skill-tag">JWT Authentication</span>
+        <span class="skill-tag">Async Programming</span>
+        <span class="skill-tag">Distributed Systems</span>
+        <span class="skill-tag hot">Redis</span>
+        <span class="skill-tag hot">Celery</span>
         <span class="skill-tag">Docker</span>
         <span class="skill-tag hot">AWS SageMaker</span>
         <span class="skill-tag">AWS Lambda</span>
+        <span class="skill-tag">AWS EC2</span>
         <span class="skill-tag">GCP Vertex AI</span>
+        <span class="skill-tag">Azure / Azure SQL</span>
+        <span class="skill-tag">Microsoft Fabric</span>
         <span class="skill-tag">CI/CD</span>
       </div>
     </div>
@@ -1291,6 +1356,9 @@
       <div class="toolkit-group-label">DATA & PIPELINES <span>// ENGINEERING</span></div>
       <div class="skill-tags">
         <span class="skill-tag hot">SQL</span>
+        <span class="skill-tag hot">T-SQL</span>
+        <span class="skill-tag hot">PostgreSQL</span>
+        <span class="skill-tag hot">pgvector</span>
         <span class="skill-tag hot">Pandas</span>
         <span class="skill-tag">NumPy</span>
         <span class="skill-tag hot">Spark</span>
@@ -1300,7 +1368,7 @@
         <span class="skill-tag">MongoDB</span>
         <span class="skill-tag">Hadoop</span>
         <span class="skill-tag">ETL/ELT</span>
-        <span class="skill-tag">FAISS</span>
+        <span class="skill-tag hot">FAISS</span>
       </div>
     </div>
 
@@ -1308,10 +1376,14 @@
       <div class="toolkit-group-label">MLOPS & QUALITY <span>// OBSERVABILITY</span></div>
       <div class="skill-tags">
         <span class="skill-tag hot">MLflow</span>
+        <span class="skill-tag hot">pytest</span>
         <span class="skill-tag hot">RAGAS</span>
         <span class="skill-tag">LLM-as-Judge</span>
+        <span class="skill-tag">LangSmith</span>
+        <span class="skill-tag">Weights & Biases</span>
         <span class="skill-tag">Data Validation</span>
         <span class="skill-tag">Experiment Tracking</span>
+        <span class="skill-tag">Feedback Loops</span>
       </div>
     </div>
 
@@ -1319,12 +1391,31 @@
       <div class="toolkit-group-label">FRONTEND & VIZ <span>// INTERFACE</span></div>
       <div class="skill-tags">
         <span class="skill-tag hot">React</span>
+        <span class="skill-tag hot">Next.js</span>
+        <span class="skill-tag hot">TypeScript</span>
+        <span class="skill-tag">Tailwind CSS</span>
         <span class="skill-tag">HTML/CSS</span>
         <span class="skill-tag">Streamlit</span>
         <span class="skill-tag">Plotly Dash</span>
         <span class="skill-tag hot">Power BI</span>
         <span class="skill-tag">Tableau</span>
         <span class="skill-tag">Matplotlib</span>
+        <span class="skill-tag">Seaborn</span>
+        <span class="skill-tag">Plotly</span>
+      </div>
+    </div>
+
+    <div class="toolkit-group">
+      <div class="toolkit-group-label">DEV TOOLS <span>// WORKFLOW</span></div>
+      <div class="skill-tags">
+        <span class="skill-tag hot">Git</span>
+        <span class="skill-tag hot">GitHub</span>
+        <span class="skill-tag hot">Cursor</span>
+        <span class="skill-tag hot">Claude Code</span>
+        <span class="skill-tag">GitHub Copilot</span>
+        <span class="skill-tag">Jupyter</span>
+        <span class="skill-tag">VS Code</span>
+        <span class="skill-tag">Agile / Scrum</span>
       </div>
     </div>
 
@@ -1392,8 +1483,8 @@
   <canvas id="constellation-canvas"></canvas>
   <div class="contact-left" style="position:relative;z-index:1;">
     <div class="section-eyebrow">LET'S CONNECT</div>
-    <h2 class="section-title">Open to roles </h2>
-    <p>Actively pursuing AI/ML Engineer positions at product startups, Big Tech (FAANG/MAANG), and AI-first companies. I bring production-grade RAG, agentic systems, and a track record of measurable impact.</p>
+    <h2 class="section-title">Open to roles in <em>London</em><br>& Remote.</h2>
+    <p>Actively pursuing AI/ML Engineer positions at product startups, Big Tech, and AI-first companies. Based in Chennai — open to relocation to London (UK visa sponsorship required). I bring production-grade RAG, agentic systems, and a measurable track record.</p>
     <div class="contact-links">
       <a href="mailto:indrav09@gmail.com" class="contact-link">
         <span class="contact-link-icon">✉</span>
